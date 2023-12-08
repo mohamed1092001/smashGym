@@ -4,9 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#e01c1f" />
     <title>SMASH GYM - HOME PAGE</title>
     <!-- css -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style1.css">
     <!-- font -->
     <link rel="stylesheet" href="libs/font.css">
     <!-- icon -->
@@ -25,7 +26,7 @@
                 <div>
 
                     <span>
-                        <i class="fa-solid fa-location-dot"></i> location :
+                        <i class="fa-solid fa-location-dot"></i> adress :
                     </span>
                     <a
                         href="https://www.google.com/maps/dir/30.5949803,31.5027292/30.5883489,31.5022177/@30.5916999,31.5037746,17z/data=!3m1!4b1!4m4!4m3!1m1!4e1!1m0?entry=ttu">
@@ -37,7 +38,7 @@
                     <span>
                         <i class="fa-solid fa-phone"></i> call us :
                     </span>
-                    <a href="https://wa.me/01272990222">
+                    <a href="https://wa.me/+201272990222" target="_blank">
                         01272990222
                     </a>
                 </div>
@@ -71,20 +72,20 @@
 
             <ul class="taps flex">
                 <li>
-                    <a href="#"> <i class="fa-solid fa-dumbbell"></i> Latest offers</a>
+                    <a href="#offers"> <i class="fa-solid fa-dumbbell"></i> Latest offers</a>
                 </li>
                 <li>
-                    <a href="#"><i class="fa-solid fa-users-viewfinder"></i> our coach</a>
+                    <a href="#coachs"><i class="fa-solid fa-users-viewfinder"></i> our coach</a>
                 </li>
                 <li>
-                    <a href="#"><i class="fa-solid fa-ranking-star"></i> top 3</a>
+                    <a href="#top"><i class="fa-solid fa-ranking-star"></i> top 3</a>
                 </li>
                 <li>
-                    <a href="#"><i class="fa-regular fa-calendar-check"></i> Appointments</a>
+                    <a href="#Appointments"><i class="fa-regular fa-calendar-check"></i> Appointments</a>
                 </li>
             </ul>
 
-            <a href="https://wa.me/01272990222" class="join-btn">
+            <a href="https://wa.me/+201272990222" target="_blank" class="join-btn">
                 <i class="fa-solid fa-hand-peace"></i>
                 join us
             </a>
@@ -113,7 +114,7 @@
                         your life. The gym is the
                         beginning of the path to success, so do not hesitate and start now</p>
 
-                    <a href="https://wa.me/01272990222">learn more</a>
+                    <a href="https://wa.me/+201272990222" target="_blank">learn more</a>
                 </div>
             </div>
             <div class="slide2 slide">
@@ -126,7 +127,7 @@
                         help you build muscle and
                         burn fat</p>
 
-                    <a href="https://wa.me/01272990222">learn more</a>
+                    <a href="https://wa.me/+201272990222" target="_blank">learn more</a>
                 </div>
             </div>
             <div class="slide3 slide">
@@ -138,7 +139,7 @@
                     <p>Start training in kickboxing, then see the difference that will happen . Kickboxing is the
                         secret of confidence and courage, so don't hesitate and start now</p>
 
-                    <a href="https://wa.me/01272990222">learn more</a>
+                    <a href="https://wa.me/+201272990222" target="_blank">learn more</a>
                 </div>
             </div>
             <div class="controller-slides fixed-x-padding flex flex-a-center">
@@ -167,12 +168,12 @@
     <!-- end header -->
 
     <!-- start offers -->
-    <section class="offers fixed-x-padding fixed-y-padding">
+    <section class="offers fixed-x-padding fixed-y-padding" id="offers">
         <h2>Latest offers</h2>
 
         <div class="offers-con flex flex-wrap fixed-x-padding">
             <div class="card">
-                <a href="https://wa.me/01272990222" class="link"></a>
+                <a href="https://wa.me/+201272990222" target="_blank" class="link"></a>
                 <img src="imgs/cardio-offer.jpg" alt="">
                 <div class="info">
                     <p class="name">
@@ -185,7 +186,7 @@
             </div>
 
             <div class="card">
-                <a href="https://wa.me/01272990222" class="link"></a>
+                <a href="https://wa.me/+201272990222" target="_blank" class="link"></a>
                 <img src="imgs/bodybulding1.jpg" alt="">
                 <div class="info">
                     <p class="name">
@@ -198,7 +199,7 @@
             </div>
 
             <div class="card">
-                <a href="https://wa.me/01272990222" class="link"></a>
+                <a href="https://wa.me/+201272990222" target="_blank" class="link"></a>
                 <img src="imgs/kick.jpg" alt="">
                 <div class="info">
                     <p class="name">
@@ -210,7 +211,7 @@
                 </div>
             </div>
             <div class="card">
-                <a href="https://wa.me/01272990222" class="link"></a>
+                <a href="https://wa.me/+201272990222" target="_blank" class="link"></a>
                 <img src="imgs/bodybulding2.avif" alt="">
                 <div class="info">
                     <p class="name">
@@ -228,7 +229,7 @@
     <!-- end offers -->
 
     <!-- start coach -->
-    <section class="coachs fixed-x-padding fixed-y-padding">
+    <section class="coachs fixed-x-padding fixed-y-padding" id="coachs">
         <h2>our coach</h2>
 
         <div class="coach-con flex fixed-x-padding">
@@ -278,7 +279,7 @@
 
     <!-- start top -->
 
-    <section class="top fixed-x-padding fixed-y-padding">
+    <section class="top fixed-x-padding fixed-y-padding" id="top">
         <h2>top 3 this month</h2>
 
         <div class="top-con fixed-x-padding flex flex-j-center">
@@ -317,12 +318,99 @@
 
     <!-- end top -->
 
+    <!-- start Appointments -->
+    <section class="appointments fixed-x-padding fixed-y-padding" id="Appointments">
+        <h2>Appointments</h2>
+        <div class="son fixed-x-padding flex flex-a-center">
+            <div class="women">
+                <h3 class="title">women Appointments</h3>
+                <p class="day">Saturday - Monday - Wednesday</p>
+                <p class="time">2 : -- pm <span> : </span> 7 : -- pm </p>
+                <p class="day">Sunday - Tuesday - Thursday</p>
+                <p class="time"> 11 : -- am <span> : </span> 3 : -- pm</p>
+            </div>
+            <span class="line"></span>
+            <div class="men">
+                <h3 class="title">men Appointments</h3>
+                <p class="day">Saturday - Monday - Wednesday</p>
+                <p class="time">7 : -- pm <span> : </span> 2 : -- am </p>
+                <p class="day">Sunday - Tuesday - Thursday</p>
+                <p class="time"> 3 : -- pm <span> : </span> 2 : -- pm</p>
+            </div>
+        </div>
+    </section>
+    <!-- end Appointments -->
 
+    <!-- start footer -->
+    <footer class="fixed-x-padding fixed-y-padding">
+        <div class="flex son ">
+            <div class="about">
+                <img src="imgs/logo-removebg.png" alt="">
+                <p>Go to the gym and start training, and see the difference that will happen in your body and in
+                    your life. The gym is the
+                    beginning of the path to success, so do not hesitate and start now</p>
+            </div>
+            <div class="fast-links">
+                <h4>explore</h4>
+                <div>
+                    <a href="#offers"> <i class="fa-solid fa-dumbbell"></i> Latest offers</a>
+                    <a href="#coachs"><i class="fa-solid fa-users-viewfinder"></i> our coach</a>
+                    <a href="#top"><i class="fa-solid fa-ranking-star"></i> top 3</a>
+                    <a href="#Appointments"><i class="fa-regular fa-calendar-check"></i> Appointments</a>
+                </div>
+            </div>
+            <div class="contact">
+                <h5>contact us</h5>
+                <div>
+                    <div class="contact-card">
+
+                        <span>
+                            <i class="fa-solid fa-location-dot"></i> adress :
+                        </span>
+                        <a
+                            href="https://www.google.com/maps/dir/30.5949803,31.5027292/30.5883489,31.5022177/@30.5916999,31.5037746,17z/data=!3m1!4b1!4m4!4m3!1m1!4e1!1m0?entry=ttu">
+                            Mosque, Zagazig 2, Al-Sharqia Governorate
+                        </a>
+                    </div>
+                    <div class="contact-card">
+                        <span>
+                            <i class="fa-solid fa-phone"></i> call us :
+                        </span>
+                        <a href="https://wa.me/+201272990222" target="_blank">
+                            01272990222
+                        </a>
+                    </div>
+                    <div class="contact-card">
+                        <span>
+                            <i class="fa-solid fa-plus"></i>follow us :
+                        </span>
+                        <div class="flex">
+                            <a href="https://www.facebook.com/SMASHGYMZAG">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                            <a href="https://www.facebook.com/SMASHGYMZAG">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a href="https://www.facebook.com/SMASHGYMZAG">
+                                <i class="fa-brands fa-tiktok"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <section class="powered">
+        powered by <div><a href="https://www.facebook.com/profile.php?id=100031927055214" target="_blank">Mohamed
+                Hossam</a> - <a href="https://www.facebook.com/Nerdacademeyy" target="_blank">nerd company</a></div>
+    </section>
+    <!-- end footer -->
 
     <!-- script -->
 
     <script src="js/jquery-3.7.1.js"></script>
     <script src="js/main.js"></script>
+
 </body>
 
 </html>

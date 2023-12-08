@@ -27,15 +27,24 @@ $(document).ready(function () {
 
     }, 11000)
 
+    // nav
 
     $(".s-h-btn").click(function () {
         $(".taps").css("transform", "translateX(0px)")
         $(".close-taps").css("transform", "translateX(0px)")
     })
 
-    $(".close-taps").click(function(){
+    $(".close-taps").click(function () {
         $(".taps").css("transform", "translateX(-100%)")
         $(".close-taps").css("transform", "translateX(200px)")
+    })
+
+    $(".taps").click(function(){
+        let navBtnStutus = $(".s-h-btn").css("display");
+        if (navBtnStutus =="block"){
+            $(".taps").css("transform", "translateX(-100%)")
+            $(".close-taps").css("transform", "translateX(200px)")
+        }
     })
 })
 
